@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tentang - Gabriel</title>
+  <style>
+    body {
+      background: #111827;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 20px;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeUp 1s ease-out forwards;
+    }
+
+    p.description {
+      font-size: 1.2rem;
+      color: #d1d5db;
+      max-width: 600px;
+      margin-bottom: 2rem;
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeUp 1s ease-out forwards;
+      animation-delay: 0.4s;
+    }
+
+    .verse {
+      font-size: 1.1rem;
+      color: #a78bfa;
+      max-width: 600px;
+      margin-top: 2rem;
+      line-height: 1.8;
+      opacity: 0;
+      transform: scale(0.9);
+      animation: fadeZoom 1s ease-out forwards;
+      animation-delay: 1s;
+    }
+
+    .verse strong {
+      display: block;
+      margin-top: 0.5rem;
+      font-weight: bold;
+      color: #facc15;
+    }
+
+    a.back {
+      display: inline-block;
+      margin-top: 3rem;
+      color: #a78bfa;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.back:hover {
+      color: #c4b5fd;
+    }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeZoom {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>TENTANG</h1>
+    <p class="description">
+      Saya Gabriel Richard Van Harling Umur 20 tahun Lahir dan besar Di Ambon Sekarang Saya menjadi mahasiswa pada Universitas Kristen Indonesia maluku Fakultas Teknik informatika
+    </p>
+
+    <div class="verse">
+      "Karena masa depan sungguh ada, dan harapanmu tidak akan hilang."
+      <strong>Amsal 23:18</strong>
+    </div>
+
+    <a href="index.html" class="back">← Kembali ke Beranda</a>
+  </div>
+
+</body>
+</html>
